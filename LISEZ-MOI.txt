@@ -1,0 +1,26 @@
+SITE DU DR FATIMA OUAMMOU – prêt à mettre en ligne
+=================================================
+
+Structure
+- index.html ................ accueil en français   -> https://drfatimaouammou.com/
+- ar/index.html ............. accueil en arabe      -> https://drfatimaouammou.com/ar/
+- problemes/ ................ 82 pages (une par problème) + liste complète, en français
+- ar/problemes/ ............. les mêmes 82 pages en arabe
+- assets/ ................... photo, logo, style.css, app.js (assistant + guide)
+- sitemap.xml / robots.txt .. pour Google
+
+Mise en ligne
+1. Envoyer TOUT le contenu de ce dossier à la racine de l'hébergement (dossier public_html ou www).
+2. Si le nom de domaine n'est pas drfatimaouammou.com, il faut changer l'adresse
+   dans les pages et le sitemap (demander à Claude de le refaire avec le bon domaine).
+3. Google Search Console : ajouter le site, puis soumettre https://drfatimaouammou.com/sitemap.xml
+4. Fiche Google Business Profile : écrire l'adresse EXACTEMENT comme sur le site :
+   1er étage, 65 Quartier El Maghreb Al Arabi, Av. Tarik Ibn Ziad, Témara (en face de BIM)
+
+Formulaire « Écrire au docteur »
+- Tant que la clé Web3Forms n'est pas ajoutée (fichier assets/app.js, ligne const W3F_KEY=""),
+  le bouton Envoyer ouvre WhatsApp avec le message déjà écrit.
+
+Hébergement sur GitHub Pages
+- Le fichier CNAME (contient drfatimaouammou.com) relie le site au domaine.
+- Le fichier .nojekyll indique à GitHub de publier les fichiers tels quels.
