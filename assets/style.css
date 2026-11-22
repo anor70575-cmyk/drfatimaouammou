@@ -333,6 +333,17 @@ footer{text-align:center;padding:40px 0 50px;color:var(--muted);font-size:14px}
 .mapbox{border-radius:24px;overflow:hidden;height:420px;border:1px solid #e9dfd8;background:#eee;box-shadow:0 25px 50px -35px rgba(0,0,0,.5)}
 .mapbox iframe{width:100%;height:100%;border:0}
 @media(max-width:900px){.map-grid{grid-template-columns:1fr}.mapbox{height:320px}.locbar{padding:10px 12px}.lb-go{padding:8px 12px;font-size:13px}.map-sec{padding:60px 0}}
+
+/* cabinet / services (SEO) */
+.seo-sec{padding:70px 0;background:var(--rose-2)}
+.svc-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.svc-links a{background:#fff;border-radius:16px;padding:16px 18px;border:1px solid #efe4dd;transition:.2s}
+.svc-links a:hover{border-color:var(--gold);transform:translateY(-2px)}
+.svc-links b{display:block;font-weight:500;font-size:15.5px;margin-bottom:4px}
+.svc-links small{color:var(--muted);font-size:13.5px;line-height:1.45;display:block}
+.aka{text-align:center;color:var(--muted);font-size:13.5px;margin-top:22px}
+@media(max-width:900px){.svc-links{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.svc-links{grid-template-columns:1fr}}
 .mbar{display:none}
 @media(max-width:900px){
  .nav nav,.nr .btn{display:none}
@@ -386,6 +397,19 @@ img[width]{height:auto}
 .hub-cat,.pp-rel{padding:0}
 .hub-cat{margin-bottom:40px}
 .hub-cat h2{font-size:32px;margin-bottom:14px}
+.pp-long{max-width:820px;margin:34px 0;padding:0}
+.pp-long h2{font-size:28px;margin:30px 0 12px}
+.pp-long p,.pp-long li{font-size:16.5px;line-height:1.75;color:var(--ink)}
+.pp-long ul{padding-inline-start:22px;margin-bottom:10px}
+.pp-long li{margin:6px 0}
+.pp-long p+p{margin-top:12px}
+.pp-long a{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
+.pp-long .urgent{margin:16px 0}
+.pp-kw{background:var(--rose-2);border-radius:20px;padding:22px 24px;margin:26px 0}
+.pp-kw h2{font-size:22px;margin-bottom:6px}
+.pp-kw p{color:var(--muted);font-size:14.5px;margin-bottom:12px}
+.pp-kw ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+.pp-kw li{background:#fff;border:1px solid #eadbd2;border-radius:30px;padding:6px 14px;font-size:14px}
 @media(max-width:900px){.pp-grid,.pp-video,.pp-cta{grid-template-columns:1fr}.pp-video{padding:16px}.pp-video .vframe{max-width:280px;margin:0 auto;width:100%}.pp-cta{padding:26px 20px}}
 
 .hero-title{font-size:clamp(40px,4.8vw,64px)}
